@@ -1,0 +1,54 @@
+/* Copyright (C) Sabrina D. van der Gracht 2016 */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.firstHeading {
+  color:orange;
+  font-style: italic;
+  text-shadow: 2px 2px 0 black;
+  font-size: 1.8em;
+}
+
+.secondHeading {
+  font-size: 1.9em;
+}
+
+.secondHeading::first-letter {
+  font-size: 2.3em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+.pumpkin {
+  float:left;
+  margin-right: 20px;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: green;
+}
+
+ul {
+  line-height: 1.5em;
+}
+
+footer {
+  font-size: .85em;
+  text-align: center;
+}
