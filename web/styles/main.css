@@ -29,6 +29,9 @@ article {
 
 nav {
   margin: 15px;
+  float: left;
+  width: 160px;
+  
 }
 
 header {
@@ -63,6 +66,10 @@ header {
   font-size: 2.3em;
 }
 
+.productHeading {
+  margin-left: 15px;
+}
+
 h2 {
   font-size: 1.6em;
 }
@@ -74,6 +81,14 @@ h3 {
 .pumpkin {
   float:left;
   margin-right: 20px;
+}
+
+.cat {
+  padding-left: 15px;
+}
+
+.catDescription {
+  padding-left: 15px;
 }
 
 a:link {
@@ -92,10 +107,16 @@ ul {
   line-height: 1.5em;
 }
 
+div {
+  float: right;
+  width: 610px;
+}
+
 footer {
   border-top-color: black;
   border-top-style: solid;
   border-top-width: 1px;
+  clear: both;
   font-size: .85em;
   text-align: center;
   background-color: orange;
