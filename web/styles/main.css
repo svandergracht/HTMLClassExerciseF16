@@ -33,6 +33,70 @@ nav {
   width: 160px;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  border: 2px solid black;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  background-color: orange;
+}
+
+nav li:last-child {
+  margin-bottom: 0px;
+}
+
+nav li:first-child {
+  margin-top: 0px;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+nav ul a:link {
+  color: black;
+  font-weight: bold;
+}
+
+.topMenu {
+  background-color: black;
+  margin: 0px auto;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.topMenu li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 19.5%;
+}
+
+.topMenu a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.topMenu li:hover {
+  background-color: grey;
+}
+
+.topMenu a:link, .topMenu a:visited {
+  color: white;
+}
+
+.active a:link, .active:visited {
+  color: orange;
+}
+
 header {
   border-bottom-style: solid;
   border-bottom-width: 1px;
