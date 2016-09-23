@@ -94,7 +94,7 @@ nav ul a:link {
   color: white;
 }
 
-.active a:link, .active:visited {
+.topMenu li:nth-child(1) a:link, .topMenu li:nth-child(1) a:hover, .topMenu li:nth-child(1) a:visited {
   color: orange;
 }
 

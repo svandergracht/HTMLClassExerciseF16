@@ -90,7 +90,7 @@ nav ul a:link {
   color: white;
 }
 
-.active a:link, .active:visited {
+.topMenu li:nth-child(2) a:link, .topMenu li:nth-child(2) a:hover, .topMenu li:nth-child(2) a:visited {
   color: orange;
 }
 
@@ -134,6 +134,7 @@ h3 {
 table {
   width: 500px;
   text-align: left;
+  border-collapse: collapse;
 }
 
 table a:link, table a:hover, table a:visited {
