@@ -21,21 +21,17 @@ body {
 
 .firstHeading {
   font-size: 1.8em;
-  margin-top: 0px;
   margin-bottom: 0px;
+  margin-top: 0px;
   /*font-style: italic;
   color:orange;
   text-shadow: 2px 2px 0 black;*/
 }
 
 .goblinHeading {
-    margin-bottom: 20px;
-    margin-top: 15px;
-    padding-left: 106px;
-}
-
-section {
-  margin: 15px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  padding-left: 106px;
 }
 
 .catImage {
@@ -44,19 +40,19 @@ section {
 }
 
 p {
-  margin-right:220px;
   margin-left:200px;
+  margin-right:220px;
   margin-top:10px;
   width: 200px;
 }
 
 #sidebar {
-  width: 180px;
-  height: 100%;
-  float:right;
   background-color:#F5DEB3;
+  float:right;
+  margin-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
+  width: 180px;
 }
 
 #sidebar ul {
@@ -65,75 +61,79 @@ p {
 }
 
 #sidebar img {
-  width: 70px;
   height: 70px;
+  width: 70px;
 }
 
 #sidebar li {
   padding-bottom: 8px;
 }
 
-#sidebar a, #sidebar a:hover, #sidebar a:visited {
+#sidebar a, #sidebar a:visited {
   color: black;
 }
 
-nav {
+#sidebar a:hover, #sidebar a:focus {
+  color: green;
+}
+
+#menu {
   float: left;
   margin: 15px;
   width: 160px;
 }
 
-nav ul {
+#menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav li {
-  border: 2px solid black;
-  margin-top: 3px;
-  margin-bottom: 3px;
+#menu li {
   background-color: orange;
+  border: 2px solid black;
+  margin-bottom: 3px;
+  margin-top: 3px;
 }
 
-nav li:last-child {
+#menu li:last-child {
   margin-bottom: 0px;
 }
 
-nav li:first-child {
+#menu li:first-child {
   margin-top: 0px;
 }
 
-nav li a {
+#menu li a {
   display: block;
-  text-decoration: none;
   padding-left: 10px;
+  text-decoration: none;
 }
 
-nav ul a:link {
+#menu ul a:link {
   color: black;
   font-weight: bold;
 }
 
 .topMenu {
   background-color: black;
+  list-style-type: none;
   margin: 0px auto;
   padding: 0px;
-  list-style-type: none;
   text-align: center;
 }
 
 .topMenu li {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 19.5%;
   display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 19.5%;
 }
 
 .topMenu a {
+  display: inline-block;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
 }
 
 .topMenu li:hover {
@@ -149,17 +149,18 @@ nav ul a:link {
 }
 
 header {
+  background: linear-gradient(45deg, white, orange 75%, black);
+  background-color: orange;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: black;
-  background-color: orange;
-  background: linear-gradient(45deg, white, orange 75%, black);
   padding: 15px;
 }
 
 h2 {
-  font-size: 1.6em;
   display:inline;
+  font-size: 1.6em;
+  margin-top: 15px;
 }
 
 h3 {
@@ -176,11 +177,7 @@ h3 {
   padding-left: 15px;
 }
 
-a:link {
-  color: orange;
-}
-
-a:visited {
+a:link, a:visited {
   color: orange;
 }
 
@@ -194,6 +191,7 @@ ul {
 
 div {
   float: left;
+  margin-top: 15px;
   width: 300px;
 }
 
@@ -210,7 +208,7 @@ footer {
   border-top-width: 1px;
   clear: both;
   font-size: .85em;
-  margin-top: 25px;
   margin-bottom: 0px;
+  margin-top: 25px;
   text-align: center;
 }
