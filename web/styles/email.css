@@ -1,0 +1,205 @@
+/* Copyright (C) Sabrina D. van der Gracht 2016 */
+
+html {
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+}
+
+body {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 0px 6px 8px 4px black;
+  font-family: arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  -moz-box-shadow: 0px 6px 8px 4px black;
+  width: 800px;
+  -webkit-box-shadow: 0px 6px 8px 4px black;
+}
+
+form {
+  float: left;
+}
+
+form p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+label {
+  display: block;
+  float: left;
+  margin-bottom: 3px;
+  padding-right: 20px;
+  text-align: right;
+  width: 80px;
+}
+
+input {
+  display: block;
+  float: right;
+  margin-bottom: 3px;
+  width: 350px;
+}
+
+#button {
+  background-color: orange;
+  float: right;
+  margin-right: 276px;
+  margin-top: 3px;
+  width: 80px;
+}
+
+section {
+  margin: 15px;
+}
+
+nav {
+  float: left;
+  margin: 15px;
+  width: 160px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  background-color: orange;
+  border: 2px solid black;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+nav li:last-child {
+  margin-bottom: 0px;
+}
+
+nav li:first-child {
+  margin-top: 0px;
+}
+
+nav li a {
+  display: block;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+nav ul a:link {
+  color: black;
+  font-weight: bold;
+}
+
+.topMenu {
+  background-color: black;
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.topMenu li {
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 19.5%;
+}
+
+.topMenu a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topMenu li:hover {
+  background-color: grey;
+}
+
+.topMenu a:link, .topMenu a:visited {
+  color: white;
+}
+
+.topMenu li:nth-child(5) a:link, .topMenu li:nth-child(5) a:hover, .topMenu
+li:nth-child(5) a:visited {
+  color: orange;
+}
+
+header {
+  background: linear-gradient(45deg, white, orange 75%, black);
+  background-color: orange;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 15px;
+}
+
+.firstHeading {
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*font-style: italic;
+  color:orange;
+  text-shadow: 2px 2px 0 black;*/
+}
+
+.goblinHeading {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 106px;
+}
+
+h1 {
+  margin-bottom:0px;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+.pumpkin {
+  float:left;
+  margin-right: 20px;
+}
+
+a:link, a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: green;
+}
+
+ul {
+  line-height: 1.5em;
+}
+
+div {
+  float: right;
+  width: 610px;
+}
+
+.bottom {
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+footer {
+  background: linear-gradient(45deg, black, orange 25%, white);
+  background-color: orange;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  clear: both;
+  font-size: .85em;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  text-align: center;
+}
