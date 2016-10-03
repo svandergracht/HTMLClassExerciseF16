@@ -1,0 +1,262 @@
+/* Copyright (C) Sabrina D. van der Gracht 2016 */
+
+html {
+  background-image: url(../images/bats.gif);
+  background-repeat: repeat;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  box-shadow: 0px 6px 8px 4px black;
+  font-family: arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 950px;
+  -moz-box-shadow: 0px 6px 8px 4px black;
+  width: 95%;
+  -webkit-box-shadow: 0px 6px 8px 4px black;
+}
+
+section {
+  margin: 5%;
+}
+
+article {
+  margin: 5%;
+}
+
+.bottomNav {
+  display: none;
+}
+
+nav {
+  float: left;
+  margin-left: 3%;
+  margin-top: 3%;
+  width: 25%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  background-color: orange;
+  border: 2px solid black;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+nav li:last-child {
+  margin-bottom: 0px;
+}
+
+nav li:first-child {
+  margin-top: 0px;
+}
+
+nav li a {
+  display: block;
+  padding-left: 5%;
+  text-decoration: none;
+}
+
+nav ul a:link {
+  color: black;
+  font-weight: bold;
+}
+
+.topMenu {
+  background-color: black;
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.topMenu li {
+  display: inline-block;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 19.5%;
+}
+
+.topMenu a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.topMenu li:hover {
+  background-color: grey;
+}
+
+.topMenu a:link, .topMenu a:visited {
+  color: white;
+}
+
+.topMenu li:nth-child(1) a:link, .topMenu li:nth-child(1) a:hover, .topMenu
+li:nth-child(1) a:visited {
+  color: orange;
+}
+
+header {
+  background: linear-gradient(45deg, white, orange 75%, black);
+  background-color: orange;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 2%;
+}
+
+.firstHeading {
+  font-size: 1.8em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /*font-style: italic;
+  color:orange;
+  text-shadow: 2px 2px 0 black;*/
+}
+
+.goblinHeading {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-left: 15%;
+}
+
+.secondHeading {
+  font-size: 1.9em;
+}
+
+.secondHeading::first-letter {
+  font-size: 2.3em;
+}
+
+.productHeading {
+  margin-left: 5%;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+.pumpkin {
+  float:left;
+  margin-right: 5%;
+  max-width: 85px;
+  min-width: 40px;
+  width:20%;
+}
+
+.cat {
+  padding-left: 5%;
+  max-width: 154px;
+  width: 30%;
+}
+
+.catDescription {
+  padding-left: 5%;
+}
+
+a:link, a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: green;
+}
+
+ul {
+  line-height: 1.5em;
+}
+
+div {
+  float: right;
+  width: 70%;
+}
+
+.bottom {
+  margin-bottom: 0px;
+  padding-bottom: 2%;
+}
+
+footer {
+  background: linear-gradient(45deg, black, orange 25%, white);
+  background-color: orange;
+  border-top-color: black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  clear: both;
+  font-size: .85em;
+  margin-bottom: 0px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#hamburger {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  html {
+    background-image: none;
+    font-size: 90%;
+  }
+  
+  body {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .topMenu li {
+    display: none;
+  }
+  
+  #hamburger {
+    display: block;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    text-decoration: none;
+    padding: 0px;
+  }
+  
+  #hamburger li {
+    color: white;
+    padding: 2%;
+    text-align: right;
+    list-style-type: none;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  .bottomNav {
+    float: none;
+    display: inline-block;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+  }
+  
+  .bottomNav li:first-child {
+    margin-top: 0%;
+  }
+  
+  div {
+    float: left;
+    width: 100%;
+  }
+}
